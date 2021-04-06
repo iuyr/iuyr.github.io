@@ -1,0 +1,33 @@
+<!-- Link Gitalk 的支持文件  -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+
+    <script>      
+      var gitalk = new Gitalk({
+
+          clientID: '6be4033dcfc6ac1a17c4',
+          clientSecret: '45f5110c94e38c92a21052999d23990ce7f32664',
+          repo: 'pinglun',
+          owner: 'iuyr',
+          admin: ['iuyr'],
+          id: '{{ page.title }}',
+          perPage: 15,
+          title: '{{ page.title }}', 
+          pagerDirection: 'last',
+          createIssueManually: false,
+          distractionFreeMode: true,
+          flipMoveOptions:
+                              {
+                                staggerDelayBy: 150,
+                                appearAnimation: 'accordionHorizontal',
+                                enterAnimation: 'accordionHorizontal',
+                                leaveAnimation: 'accordionHorizontal',
+                              }
+          
+      })
+      
+      gitalk.render('disqus_thread')
+    </script>
+
+ 
+<!-- Gitalk end -->
