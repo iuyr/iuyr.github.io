@@ -145,9 +145,8 @@ events:
     #description: "发布《彭城朝歌》"
   - image: "/img/timeline/yishilingshu.jpg"
     date: "2021-08-06"
-    <a href="/categories/一世翎枢.html">
     description: "发布《一世翎枢》"
-    </a>
+    <a href="/categories/一世翎枢.html">一世翎枢</a>
 
 
 # First image of the Timeline
