@@ -146,12 +146,13 @@ events:
   - image: "/img/timeline/yishilingshu.jpg"
     date: "2021-08-06"
     description: "发布《一世翎枢》"
-    <a href="/categories/一世翎枢.html">一世翎枢</a>
 
 
 # First image of the Timeline
 
 timeline-img: "/img/timeline/default.png"
+
+<a href="/categories/一世翎枢.html">一世翎枢</a>
 
 ###########
 # Contact #
