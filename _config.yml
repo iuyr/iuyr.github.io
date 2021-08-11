@@ -226,4 +226,7 @@ sass:
 gems:
   - jekyll-paginate
   - jemoji
+
+#链接格式#
+permalink: none
 ##
