@@ -152,7 +152,6 @@ events:
 
 timeline-img: "/img/timeline/default.png"
 
-<a href="/categories/一世翎枢.html">一世翎枢</a>
 
 ###########
 # Contact #
@@ -208,6 +207,7 @@ pages_list:
   说明: 'about'
   更新: 'latest-post'
   进度: 'timeline'
+  分类: 'books'
   联系: 'contact'
 
 # Exclusion list from the generated _site
