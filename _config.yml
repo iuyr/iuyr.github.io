@@ -134,6 +134,9 @@ syntax-highlight: True
 ############
 
 events:
+  - image: "/img/timeline/baracktocat.jpg"
+    date: "2012-07-21"
+    description: "发布《东雪之藏宝图》"
   - image: "/img/timeline/spidertocat.png"
     date: "2018-05-29"
     description: "发布《倾城传之公子浊世》全一章"
