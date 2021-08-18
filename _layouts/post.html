@@ -44,7 +44,11 @@
           {% endif %}
           
           
+          <!-- gitalk系统起始 -->
+          {% if jekyll.environment == "production" %} 
             {% include gitalk.html %}
+          {% endif %}
+          <!-- gitalk系统结尾 -->
            
             
           <hr />
