@@ -39,10 +39,6 @@
           <p><font color="#04B486">
           {% include share.html %}
           
-          {% if jekyll.environment == "production" %} 
-            {% include comments.html %}          
-          {% endif %}
-          
           
           <!-- gitalk系统起始 -->
           {% if jekyll.environment == "production" %} 
@@ -63,6 +59,30 @@
           {% endif%}
             </font></p>
           <!-- 评论字体颜色结尾 -->
+
+          <!-- 评论字体颜色起始2 -->
+          <p><font color="#04B486">
+          
+          {% if jekyll.environment == "production" %} 
+            {% include comments.html %}          
+          {% endif %}
+          
+          
+           
+            
+          <hr />
+
+          {% if site.author_blurb %}
+          <div class="author row">
+            <img class="col-xs-4 col-sm-3 col-md-2" src="{{site.baseurl}}{{site.author_blurb_image}}" alt="Me" />
+            <p class="col-xs-8 col-sm-9 col-md-10">
+              {{ site.author_blurb }}
+            </p>
+          </div>
+          {% endif%}
+            </font></p>
+          <!-- 评论字体颜色结尾2 -->
+
         </div>
       </div>
     </section>
