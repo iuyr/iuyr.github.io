@@ -149,6 +149,9 @@ events:
   - image: "/img/timeline/lingshu.jpg"
     date: "2021-08-06"
     description: "发布《翎枢难改》"
+  - image: "/img/timeline/spidertocat.png"
+    date: "2022-07-30"
+    description: "发布《逃出密尔勒│双镜》"
 
 
 # First image of the Timeline
